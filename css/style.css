@@ -1,0 +1,134 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background: #ccc;
+    color: #fff;
+}
+
+.header {
+    background: #1f2937;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 32px;
+    
+}
+.logo a {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 0 32px;
+    gap: 20px;
+}
+.header-content  h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.header-content p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 20px;
+}
+
+.header-container img {
+    height: 70vh;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.btn {
+    background: #3882f6;
+    padding: 10px 32px;
+    border-radius: 15px;
+    border: none;
+}
+img {
+    width: 100%;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    color: #1F2937;
+
+}
+.info-head {
+    display: flex;
+    justify-content: center;
+   font: 36px bolder;
+   color:  #1F2937;
+   margin: 18px 32px;
+}
+.info-container {
+    display: flex;
+    gap: 18px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.insiration {
+    background: #e5e7eb;
+    height: max-content;
+   
+}
+.inspiration p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    text-align: center;
+    padding: 16px 32px;
+    color: #1F2937;
+    margin-bottom: 70px;
+}
+
+.action {
+    background: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+.action .btn {
+    background: #3882f6;
+    border-radius: 15px;
+}
+footer {
+    background: #1f2937;
+    text-align: center;
+    color: #f9faf8;
+}
